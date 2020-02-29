@@ -42,10 +42,10 @@ RM = "C:\Program Files\JetBrains\CLion 2019.1.2\bin\cmake\win\bin\cmake.exe" -E 
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\victo\CLionProjects\Practica1
+CMAKE_SOURCE_DIR = "G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\victo\CLionProjects\Practica1\cmake-build-debug
+CMAKE_BINARY_DIR = "G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Practica1.dir/depend.make
@@ -58,30 +58,45 @@ include CMakeFiles/Practica1.dir/flags.make
 
 CMakeFiles/Practica1.dir/main.cpp.obj: CMakeFiles/Practica1.dir/flags.make
 CMakeFiles/Practica1.dir/main.cpp.obj: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\victo\CLionProjects\Practica1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Practica1.dir/main.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Practica1.dir\main.cpp.obj -c C:\Users\victo\CLionProjects\Practica1\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Practica1.dir/main.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Practica1.dir\main.cpp.obj -c "G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1\main.cpp"
 
 CMakeFiles/Practica1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica1.dir/main.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\victo\CLionProjects\Practica1\main.cpp > CMakeFiles\Practica1.dir\main.cpp.i
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1\main.cpp" > CMakeFiles\Practica1.dir\main.cpp.i
 
 CMakeFiles/Practica1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica1.dir/main.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\victo\CLionProjects\Practica1\main.cpp -o CMakeFiles\Practica1.dir\main.cpp.s
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1\main.cpp" -o CMakeFiles\Practica1.dir\main.cpp.s
+
+CMakeFiles/Practica1.dir/menu.cpp.obj: CMakeFiles/Practica1.dir/flags.make
+CMakeFiles/Practica1.dir/menu.cpp.obj: ../menu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Practica1.dir/menu.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\Practica1.dir\menu.cpp.obj -c "G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1\menu.cpp"
+
+CMakeFiles/Practica1.dir/menu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Practica1.dir/menu.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1\menu.cpp" > CMakeFiles\Practica1.dir\menu.cpp.i
+
+CMakeFiles/Practica1.dir/menu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Practica1.dir/menu.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1\menu.cpp" -o CMakeFiles\Practica1.dir\menu.cpp.s
 
 # Object files for target Practica1
 Practica1_OBJECTS = \
-"CMakeFiles/Practica1.dir/main.cpp.obj"
+"CMakeFiles/Practica1.dir/main.cpp.obj" \
+"CMakeFiles/Practica1.dir/menu.cpp.obj"
 
 # External object files for target Practica1
 Practica1_EXTERNAL_OBJECTS =
 
 Practica1.exe: CMakeFiles/Practica1.dir/main.cpp.obj
+Practica1.exe: CMakeFiles/Practica1.dir/menu.cpp.obj
 Practica1.exe: CMakeFiles/Practica1.dir/build.make
 Practica1.exe: CMakeFiles/Practica1.dir/linklibs.rsp
 Practica1.exe: CMakeFiles/Practica1.dir/objects1.rsp
 Practica1.exe: CMakeFiles/Practica1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\victo\CLionProjects\Practica1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Practica1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable Practica1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Practica1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +109,6 @@ CMakeFiles/Practica1.dir/clean:
 .PHONY : CMakeFiles/Practica1.dir/clean
 
 CMakeFiles/Practica1.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\victo\CLionProjects\Practica1 C:\Users\victo\CLionProjects\Practica1 C:\Users\victo\CLionProjects\Practica1\cmake-build-debug C:\Users\victo\CLionProjects\Practica1\cmake-build-debug C:\Users\victo\CLionProjects\Practica1\cmake-build-debug\CMakeFiles\Practica1.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1" "G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1" "G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1\cmake-build-debug" "G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1\cmake-build-debug" "G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1\cmake-build-debug\CMakeFiles\Practica1.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/Practica1.dir/depend
 
