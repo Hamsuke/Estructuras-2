@@ -2,8 +2,9 @@
 // Created by victo on 28/02/2020.
 //
 
-#include "archivo.h"
-#include <iostream>
+#include "Archivo.h"
+
+metodos menu;
 do{
     int opc=0;
     std::cout<<"Que desea hacer?"<<endl
@@ -14,13 +15,13 @@ do{
     cin>>opc;
     switch(opc){
         case 1:
-
+            menu.escritura();
             break;
         case 2:
-
+            menu.lectura();
             break;
         case 3:
-
+            menu.escrituraesp();
             break;
     }while(opc!=4);
 }

@@ -82,7 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/archivo.h">
+		<Unit filename="/home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/Archivo.h">
+			<Option target="Practica1"/>
+		</Unit>
+		<Unit filename="/home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/Info.h">
 			<Option target="Practica1"/>
 		</Unit>
 		<Unit filename="/home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/main.cpp">
