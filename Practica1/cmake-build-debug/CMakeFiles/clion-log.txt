@@ -1,4 +1,4 @@
-"C:\Program Files\JetBrains\CLion 2019.1.2\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "G:\Documents\GitHub\Estructuras 2\Estructuras-2\Practica1"
+/home/hamsuke/Jetbrains/clion-2019.2.3/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1
 -- Configuring done
 -- Generating done
--- Build files have been written to: G:/Documents/GitHub/Estructuras 2/Estructuras-2/Practica1/cmake-build-debug
+-- Build files have been written to: /home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/cmake-build-debug
