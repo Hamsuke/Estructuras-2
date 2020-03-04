@@ -12,10 +12,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85b2756d-fbb1-43fe-afe2-67216714d14a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Archivo.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/archivo.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Archivo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Archivo.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Practica1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Practica1.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/menu.cpp" afterDir="false" />
     </list>
@@ -78,6 +76,8 @@
       <workItem from="1582964173596" duration="75000" />
       <workItem from="1582964530647" duration="245000" />
       <workItem from="1583129942531" duration="2844000" />
+      <workItem from="1583163907776" duration="3721000" />
+      <workItem from="1583183544530" duration="868000" />
     </task>
     <servers />
   </component>
@@ -114,9 +114,9 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="182" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582942547374" />
-    <state x="346" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1583129956530">
+    <state x="346" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1583183543015">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1583129956530" />
+    <state x="346" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1583183543015" />
   </component>
 </project>

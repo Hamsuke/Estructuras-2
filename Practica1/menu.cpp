@@ -21,7 +21,7 @@ do{
             menu.lectura();
             break;
         case 3:
-            menu.escrituraesp();
+            menu.lecturaesp();
             break;
     }while(opc!=4);
 }
