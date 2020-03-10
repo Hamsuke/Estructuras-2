@@ -4,16 +4,25 @@
 
 #include "Archivo.h"
 
+class menuprin{
+public:
+    void menus();
+};
+
 metodos menu;
-do{
-    int opc=0;
-    std::cout<<"Que desea hacer?"<<endl
-    <<"1.Insertar proyecto"<<endl
-    <<"2.Buscar proyecto por folio"<<endl
-    <<"3.Buscar proyecto por areas"<<endl
-    <<"4.Salir"<<endl;
-    cin>>opc;
-    switch(opc){
+
+void menuprin::menus(){
+    int opc = 0;
+    std::cout << "Que desea hacer?" << endl
+              << "1.Insertar proyecto" << endl
+              << "2.Buscar proyecto por folio" << endl
+              << "3.Buscar proyecto por areas" << endl
+              << "4.Salir" << endl;
+    cin >> opc;
+    if(opc!= 1 or 2 or 3 or 4){
+        cin>>opc;
+    }
+    switch (opc) {
         case 1:
             menu.escritura();
             break;
@@ -21,7 +30,8 @@ do{
             menu.lectura();
             break;
         case 3:
-            menu.lecturaesp();
+            menu.lecturaEsp();
             break;
-    }while(opc!=4);
+    }
+    while (opc != 4);
 }

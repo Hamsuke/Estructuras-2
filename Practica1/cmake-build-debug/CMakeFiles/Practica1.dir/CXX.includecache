@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/Archivo.h
+stdio.h
+-
+string.h
+-
+fstream
+-
+iostream
+-
+iomanip
+-
+sstream
+-
+
+/home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/menu.cpp
+Archivo.h
+/home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/Archivo.h
+

@@ -20,18 +20,18 @@ private:
     int folio;
     string name;
     string area;
-    string espec:
+    string espec;
     float fondos;
     string responsable;
 
 public:
-    void abrir();
-    void ecribir();
+    ofstream Wdoc;
+    void escritura();
     void lectura();
     void lecturaEsp();
 };
 
-void metodos::escritura() {
+void metodos::escritura(){
     int opc=0;
     cout<<"Ingrese un nombre para el archivo (no puede contener espacios ni caracteres especiales, la terminacion sera .txt y la añadira el programa)"<<endl;
     cin>>namearch;
