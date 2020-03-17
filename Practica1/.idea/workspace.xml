@@ -14,9 +14,24 @@
     <list default="true" id="85b2756d-fbb1-43fe-afe2-67216714d14a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Archivo.h" beforeDir="false" afterPath="$PROJECT_DIR$/Archivo.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/depend.internal" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/depend.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/main.cpp.o" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/main.cpp.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/menu.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Practica1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Practica1" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Practica1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/Practica1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Practica1.cbp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/menu.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/menu.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/menu.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +110,12 @@
       <workItem from="1583183544530" duration="868000" />
       <workItem from="1583327361047" duration="1780000" />
       <workItem from="1583359430691" duration="385000" />
+      <workItem from="1583818980020" duration="452000" />
+      <workItem from="1583890928596" duration="2598000" />
+      <workItem from="1583943746584" duration="221000" />
+      <workItem from="1583948349738" duration="1847000" />
+      <workItem from="1584028210355" duration="897000" />
+      <workItem from="1584398482129" duration="3094000" />
     </task>
     <servers />
   </component>
@@ -115,41 +136,65 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
+    <state x="279" y="45" key="#Code_Folding" timestamp="1583893133257">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="279" y="45" key="#Code_Folding/0.0.1366.768@0.0.1366.768" timestamp="1583893133257" />
     <state x="552" y="198" key="#Notifications" timestamp="1582943206813">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="552" y="198" key="#Notifications/0.0.1920.1080@0.0.1920.1080" timestamp="1582943206813" />
-    <state x="417" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583133511070">
+    <state x="417" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584399815708">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="417" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1583133511070" />
+    <state x="417" y="133" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1366.768@0.0.1366.768" timestamp="1584399815708" />
     <state x="740" y="294" key="FileChooserDialogImpl" timestamp="1582942450570">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="740" y="294" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1582942450570" />
-    <state width="1320" height="160" key="GridCell.Tab.0.bottom" timestamp="1583330745915">
+    <state width="1320" height="425" key="GridCell.Tab.0.bottom" timestamp="1584435018481">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="160" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583330745915" />
-    <state width="1320" height="160" key="GridCell.Tab.0.center" timestamp="1583330745914">
+    <state width="1320" height="425" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584435018481" />
+    <state width="1320" height="425" key="GridCell.Tab.0.center" timestamp="1584435018480">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="160" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583330745914" />
-    <state width="1320" height="160" key="GridCell.Tab.0.left" timestamp="1583330745914">
+    <state width="1320" height="425" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584435018480" />
+    <state width="1320" height="425" key="GridCell.Tab.0.left" timestamp="1584435018480">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="160" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583330745914" />
-    <state width="1320" height="160" key="GridCell.Tab.0.right" timestamp="1583330745914">
+    <state width="1320" height="425" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584435018480" />
+    <state width="1320" height="425" key="GridCell.Tab.0.right" timestamp="1584435018481">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1320" height="160" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583330745914" />
+    <state width="1320" height="425" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584435018481" />
+    <state width="1320" height="458" key="GridCell.Tab.1.bottom" timestamp="1583950197580">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="458" key="GridCell.Tab.1.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583950197580" />
+    <state width="1320" height="458" key="GridCell.Tab.1.center" timestamp="1583950197579">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="458" key="GridCell.Tab.1.center/0.0.1366.768@0.0.1366.768" timestamp="1583950197579" />
+    <state width="1320" height="458" key="GridCell.Tab.1.left" timestamp="1583950197579">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="458" key="GridCell.Tab.1.left/0.0.1366.768@0.0.1366.768" timestamp="1583950197579" />
+    <state width="1320" height="458" key="GridCell.Tab.1.right" timestamp="1583950197580">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="1320" height="458" key="GridCell.Tab.1.right/0.0.1366.768@0.0.1366.768" timestamp="1583950197580" />
     <state x="461" y="182" key="SettingsEditor" timestamp="1582942547374">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="182" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1582942547374" />
-    <state x="346" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1583359435436">
+    <state x="346" y="209" key="com.intellij.ide.util.TipDialog" timestamp="1584398482138">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="346" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1583359435436" />
+    <state x="346" y="209" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1584398482138" />
+    <state x="233" y="41" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1583949383667">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="233" y="41" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1366.768@0.0.1366.768" timestamp="1583949383667" />
   </component>
 </project>

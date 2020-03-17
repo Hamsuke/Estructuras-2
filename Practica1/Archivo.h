@@ -5,8 +5,8 @@
 #ifndef PRACTICA1_ARCHIVO_H
 #define PRACTICA1_ARCHIVO_H
 
-#include <stdio.h>
-#include <string.h>
+#include <cstdio>
+#include <cstring>
 #include <fstream>
 #include <iostream>
 #include <iomanip>
@@ -15,31 +15,36 @@
 using namespace std;
 
 class metodos{
-private:
-    string namearch;
-    int folio;
-    string name;
-    string area;
-    string espec;
-    float fondos;
-    string responsable;
-
 public:
-    ofstream Wdoc;
+    ofstream Indoc;
     void escritura();
     void lectura();
     void lecturaEsp();
 };
 
+struct registro{
+    string namearch;
+    string folio;
+    string name;
+    string area;
+    string espec;
+    float fondos;
+    string responsable;
+    string llave;
+};
+registro proyecto;
+
 void metodos::escritura(){
+    fstream reg;
+    fstream index;
     int opc=0;
     cout<<"Ingrese un nombre para el archivo (no puede contener espacios ni caracteres especiales, la terminacion sera .txt y la añadira el programa)"<<endl;
-    cin>>namearch;
-    namearch+=".txt";
-    Wdoc.open(namearch , ios::app);
+    cin>>proyecto.namearch;
+    proyecto.namearch+=".txt";
+    reg.open(proyecto.namearch , ios::app);
     cout<<"Ingrese nombre del proyecto"<<endl;
     cin.get();
-    getline(cin,name);
+    getline(cin,proyecto.name);
     cout<<"Seleccione el area de trabajo (ingrese el numero del area correspondiente)"<<endl
     <<"Area 1. Fisico matematicas y ciencias de la tierra"<<endl
     <<"Area 2. Biologia y quimica"<<endl
@@ -51,36 +56,37 @@ void metodos::escritura(){
     cin>>opc;
     switch (opc){
         case 1:
-            area="Fisico matematicas y ciencias de la tierra";
+            proyecto.area="Fisico matematicas y ciencias de la tierra";
             break;
         case 2:
-            area="Biologia y quimica";
+            proyecto.area="Biologia y quimica";
             break;
         case 3:
-            area="Ciencias medicas y de la salud";
+            proyecto.area="Ciencias medicas y de la salud";
             break;
         case 4:
-            area="Humanidades y ciencias de la conducta";
+            proyecto.area="Humanidades y ciencias de la conducta";
             break;
         case 5:
-            area="Ciencias sociales";
+            proyecto.area="Ciencias sociales";
             break;
         case 6:
-            area="Biotecnologias y ciencias agropecuarias";
+            proyecto.area="Biotecnologias y ciencias agropecuarias";
             break;
         case 7:
-            area="Ingenierias";
+            proyecto.area="Ingenierias";
             break;
     }
+    cin.get();
     cout<<"Ingrese el nombre de la especialidad"<<endl;
-    getline(cin,espec);
+    getline(cin,proyecto.espec);
     cout<<"Ingrese el presupuesto del proyecto"<<endl;
-    cin >> fondos;
+    cin >> proyecto.fondos;
     cout<<"Ingrese el nombre del encargado del proyecto"<<endl;
     cin.get();
-    getline(cin,responsable);
-    Wdoc << folio << "☘" << name << "☘" << area << "☘" << espec << "☘" << fondos << "☘" << responsable << "☘";
-    Wdoc.close();
+    getline(cin,proyecto.responsable);
+    reg << proyecto.folio << "☘" << proyecto.name << "☘" << proyecto.area << "☘" << proyecto.espec << "☘" << proyecto.fondos << "☘" << proyecto.responsable << "☘"<<endl;
+    reg.close();
 
 }
 
@@ -100,38 +106,39 @@ void metodos::lectura() {
                 if(cont==0){
                     string aux=token;
                     stringstream aux1(aux);
-                    aux1>>folio;
+                    aux1>>proyecto.folio;
                     cont++;
                     token = strtok(NULL, delimitador);
                 }
                 if(cont==1){
-                    name=token;
+                    proyecto.name=token;
                     cont++;
                     token = strtok(NULL, delimitador);
                 }
                 if(cont==2){
-                    area=token;
+                    proyecto.area=token;
                     cont++;
                     token = strtok(NULL, delimitador);
                 }
                 if(cont==3){
-                    espec=token;
+                    proyecto.espec=token;
                     cont++;
                     token = strtok(NULL, delimitador);
                 }
                 if(cont==4){
                     string aux=token;
                     stringstream aux1(aux);
-                    aux1 >> fondos;
+                    aux1 >> proyecto.fondos;
                     cont++;
                     token = strtok(NULL, delimitador);
                 }
                 if(cont==5){
-                    responsable=token;
+                    proyecto.responsable=token;
                     token = strtok(NULL, delimitador);
                 }
                 cont=0;
-                cout << left <<setw(25)<< folio << setw(20) << name << setw(15) << area << setw(15) << espec << setw(15) << fondos << setw(20) << responsable << endl;
+                cout << left <<setw(25)<< proyecto.folio << setw(20) << proyecto.name << setw(15) << proyecto.area
+                << setw(15) << proyecto.espec << setw(15) << proyecto.fondos << setw(20) << proyecto.responsable << endl;
             }
         }
     }while(!Rdoc.eof());

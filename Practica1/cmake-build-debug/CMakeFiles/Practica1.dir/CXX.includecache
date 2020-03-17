@@ -7,9 +7,9 @@
 #IncludeRegexTransform: 
 
 /home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/Archivo.h
-stdio.h
+cstdio
 -
-string.h
+cstring
 -
 fstream
 -
@@ -20,7 +20,7 @@ iomanip
 sstream
 -
 
-/home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/menu.cpp
+/home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/main.cpp
 Archivo.h
 /home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/Archivo.h
 

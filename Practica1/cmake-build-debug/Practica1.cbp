@@ -88,9 +88,6 @@
 		<Unit filename="/home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/main.cpp">
 			<Option target="Practica1"/>
 		</Unit>
-		<Unit filename="/home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/menu.cpp">
-			<Option target="Practica1"/>
-		</Unit>
 		<Unit filename="/home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
