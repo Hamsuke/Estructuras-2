@@ -6,9 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/Archivo.h
-cstdio
--
+G:/Documents/Git/Estructuras-2/Practica1/Archivo.h
 cstring
 -
 fstream
@@ -17,10 +15,14 @@ iostream
 -
 iomanip
 -
-sstream
+cstdlib
+-
+time.h
+-
+algorithm
 -
 
-/home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/main.cpp
+G:/Documents/Git/Estructuras-2/Practica1/main.cpp
 Archivo.h
-/home/hamsuke/Git/Estructuras2/Estructuras-2/Practica1/Archivo.h
+G:/Documents/Git/Estructuras-2/Practica1/Archivo.h
 
